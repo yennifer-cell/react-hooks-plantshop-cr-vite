@@ -8,7 +8,7 @@ function PlantCard({ plant, onTogglePlant }) {
     name = "Unknown Plant",
     price = "N/A",
     image = "",
-    in_stock = false,
+    in_stock = true,
   } = plant;
 
   return (
